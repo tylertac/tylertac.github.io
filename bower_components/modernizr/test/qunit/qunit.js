@@ -1525,13 +1525,13 @@ QUnit.equiv = (function() {
 }());
 
 /**
- * jsDump Copyright (c) 2008 Ariel Flesler - aflesler(at)gmail(dot)com |
+ * jsDump Copyright (c) 2008 Arial Flesler - aflesler(at)gmail(dot)com |
  * http://flesler.blogspot.com Licensed under BSD
  * (http://www.opensource.org/licenses/bsd-license.php) Date: 5/15/2008
  *
  * @projectDescription Advanced and extensible data dumping for Javascript.
  * @version 1.0.0
- * @author Ariel Flesler
+ * @author Arial Flesler
  * @link {http://flesler.blogspot.com/2008/05/jsdump-pretty-dump-of-any-javascript.html}
  */
 QUnit.jsDump = (function() {

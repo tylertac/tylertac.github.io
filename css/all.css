@@ -1,5 +1,6 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+@import url(/fonts/stylesheet.css);
 /* line 9, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/normalize.scss */
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
@@ -195,7 +196,7 @@ html, body { height: 100%; }
 html, body { font-size: 100%; }
 
 /* line 396, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_global.scss */
-body { background: #fff; color: #222; padding: 0; margin: 0; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1.5; position: relative; cursor: auto; }
+body { background: #fff; color: #222; padding: 0; margin: 0; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; font-weight: normal; font-style: normal; line-height: 1.5; position: relative; cursor: auto; }
 
 /* line 409, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_global.scss */
 a:hover { cursor: pointer; }
@@ -704,7 +705,7 @@ select { width: 100%; }
 /* line 135, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation.active > a, .accordion dd.active > a { background: #e8e8e8; }
 /* line 136, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_accordion.scss */
-.accordion .accordion-navigation > a, .accordion dd > a { background: #EFEFEF; color: #222222; padding: 1rem; display: block; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 1rem; }
+.accordion .accordion-navigation > a, .accordion dd > a { background: #EFEFEF; color: #222222; padding: 1rem; display: block; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; font-size: 1rem; }
 /* line 143, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .accordion-navigation > a:hover, .accordion dd > a:hover { background: #e3e3e3; }
 /* line 146, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -990,7 +991,7 @@ select { width: 100%; }
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after { content: "/"; }
 
 /* line 217, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
-button, .button { border-style: solid; border-width: 0px; cursor: pointer; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; background-color: #008CBA; border-color: #007095; color: #FFFFFF; transition: background-color 300ms ease-out; }
+button, .button { border-style: solid; border-width: 0px; cursor: pointer; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; font-weight: normal; line-height: normal; margin: 0 0 1.25rem; position: relative; text-decoration: none; text-align: center; -webkit-appearance: none; -webkit-border-radius: 0; display: inline-block; padding-top: 1rem; padding-right: 2rem; padding-bottom: 1.0625rem; padding-left: 2rem; font-size: 1rem; background-color: #008CBA; border-color: #007095; color: #FFFFFF; transition: background-color 300ms ease-out; }
 /* line 161, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
 button:hover, button:focus, .button:hover, .button:focus { background-color: #007095; }
 /* line 167, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
@@ -1604,7 +1605,7 @@ textarea[rows] { height: auto; }
 
 /* Add height value for select elements to match text input height */
 /* line 471, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_forms.scss */
-select { -webkit-appearance: none !important; -webkit-border-radius: 0px; background-color: #FAFAFA; background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+); background-position: 100% center; background-repeat: no-repeat; border: 1px solid #cccccc; padding: 0.5rem; font-size: 0.875rem; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.75); line-height: normal; border-radius: 0; height: 2.3125rem; }
+select { -webkit-appearance: none !important; -webkit-border-radius: 0px; background-color: #FAFAFA; background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+); background-position: 100% center; background-repeat: no-repeat; border: 1px solid #cccccc; padding: 0.5rem; font-size: 0.875rem; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.75); line-height: normal; border-radius: 0; height: 2.3125rem; }
 /* line 340, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_forms.scss */
 select.radius { border-radius: 3px; }
 /* line 341, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_forms.scss */
@@ -1823,7 +1824,7 @@ label.error { color: #f04124; }
 .keystroke, kbd { background-color: #ededed; border-color: #dddddd; color: #222222; border-style: solid; border-width: 1px; margin: 0; font-family: "Consolas", "Menlo", "Courier", monospace; font-size: inherit; padding: 0.125rem 0.25rem 0; border-radius: 3px; }
 
 /* line 91, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_labels.scss */
-.label { font-weight: normal; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; text-align: center; text-decoration: none; line-height: 1; white-space: nowrap; display: inline-block; position: relative; margin-bottom: inherit; padding: 0.25rem 0.5rem 0.25rem; font-size: 0.6875rem; background-color: #008CBA; color: #FFFFFF; }
+.label { font-weight: normal; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; text-align: center; text-decoration: none; line-height: 1; white-space: nowrap; display: inline-block; position: relative; margin-bottom: inherit; padding: 0.25rem 0.5rem 0.25rem; font-size: 0.6875rem; background-color: #008CBA; color: #FFFFFF; }
 /* line 96, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_labels.scss */
 .label.radius { border-radius: 3px; }
 /* line 97, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_labels.scss */
@@ -2017,9 +2018,9 @@ ul.pagination li { float: left; display: block; }
 /* line 68, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table * { list-style: none; line-height: 1; }
 /* line 142, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
-.pricing-table .title { background-color: #333333; padding: 0.9375rem 1.25rem; text-align: center; color: #EEEEEE; font-weight: normal; font-size: 1rem; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+.pricing-table .title { background-color: #333333; padding: 0.9375rem 1.25rem; text-align: center; color: #EEEEEE; font-weight: normal; font-size: 1rem; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; }
 /* line 143, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
-.pricing-table .price { background-color: #F6F6F6; padding: 0.9375rem 1.25rem; text-align: center; color: #333333; font-weight: normal; font-size: 2rem; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+.pricing-table .price { background-color: #F6F6F6; padding: 0.9375rem 1.25rem; text-align: center; color: #333333; font-weight: normal; font-size: 2rem; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; }
 /* line 144, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description { background-color: #FFFFFF; padding: 0.9375rem; text-align: center; color: #777777; font-size: 0.75rem; font-weight: normal; line-height: 1.4; border-bottom: dotted 1px #DDDDDD; }
 /* line 145, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
@@ -2132,7 +2133,7 @@ dialog[open] { display: block; }
 @media print { /* line 214, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_reveal.scss */
   dialog, .reveal-modal, dialog { display: none; background: #FFFFFF !important; } }
 /* line 114, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
-.side-nav { display: block; margin: 0; padding: 0.875rem 0; list-style-type: none; list-style-position: outside; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+.side-nav { display: block; margin: 0; padding: 0.875rem 0; list-style-type: none; list-style-position: outside; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; }
 /* line 70, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li { margin: 0 0 0.4375rem 0; font-size: 0.875rem; font-weight: normal; }
 /* line 75, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -2140,7 +2141,7 @@ dialog[open] { display: block; }
 /* line 80, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus { background: rgba(0, 0, 0, 0.025); color: #1cc7ff; }
 /* line 87, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
-.side-nav li.active > a:first-child:not(.button) { color: #1cc7ff; font-weight: normal; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+.side-nav li.active > a:first-child:not(.button) { color: #1cc7ff; font-weight: normal; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; }
 /* line 93, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider { border-top: 1px solid; height: 0; padding: 0; list-style: none; border-top-color: white; }
 /* line 101, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
@@ -2202,7 +2203,7 @@ dialog[open] { display: block; }
 /* line 69, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_sub-nav.scss */
 .sub-nav dt { text-transform: uppercase; }
 /* line 73, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_sub-nav.scss */
-.sub-nav dt, .sub-nav dd, .sub-nav li { float: left; display: inline; margin-left: 1rem; margin-bottom: 0.625rem; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: normal; font-size: 0.875rem; color: #999999; }
+.sub-nav dt, .sub-nav dd, .sub-nav li { float: left; display: inline; margin-left: 1rem; margin-bottom: 0.625rem; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; font-weight: normal; font-size: 0.875rem; color: #999999; }
 /* line 85, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_sub-nav.scss */
 .sub-nav dt a, .sub-nav dd a, .sub-nav li a { text-decoration: none; color: #999999; padding: 0.1875rem 1rem; }
 /* line 89, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_sub-nav.scss */
@@ -2400,7 +2401,7 @@ p aside { font-size: 0.875rem; line-height: 1.35; font-style: italic; }
 
 /* Default header styles */
 /* line 252, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_type.scss */
-h1, h2, h3, h4, h5, h6 { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: normal; font-style: normal; color: #222222; text-rendering: optimizeLegibility; margin-top: 0.2rem; margin-bottom: 0.5rem; line-height: 1.4; }
+h1, h2, h3, h4, h5, h6 { font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; font-weight: normal; font-style: normal; color: #222222; text-rendering: optimizeLegibility; margin-top: 0.2rem; margin-bottom: 0.5rem; line-height: 1.4; }
 /* line 262, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
@@ -2572,7 +2573,7 @@ blockquote, blockquote p { line-height: 1.6; color: #6f6f6f; }
 /* line 35, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd, .tabs .tab-title { position: relative; margin-bottom: 0 !important; list-style: none; float: left; }
 /* line 40, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_tabs.scss */
-.tabs dd > a, .tabs .tab-title > a { display: block; background-color: #EFEFEF; color: #222222; padding: 1rem 2rem; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 1rem; }
+.tabs dd > a, .tabs .tab-title > a { display: block; background-color: #EFEFEF; color: #222222; padding: 1rem 2rem; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; font-size: 1rem; }
 /* line 49, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd > a:hover, .tabs .tab-title > a:hover { background-color: #e1e1e1; }
 /* line 55, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -2722,7 +2723,7 @@ meta.foundation-mq-topbar { font-family: "/only screen and (min-width:40.063em)/
 /* line 302, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li { background: #333333; }
 /* line 304, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar-section ul li > a { display: block; width: 100%; color: #FFFFFF; padding: 12px 0 12px 0; padding-left: 15px; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 0.8125rem; font-weight: normal; text-transform: none; }
+.top-bar-section ul li > a { display: block; width: 100%; color: #FFFFFF; padding: 12px 0 12px 0; padding-left: 15px; font-family: "clear_sans_mediumregular", Inconsolata, Roboto, Arial, sans-serif; font-size: 0.8125rem; font-weight: normal; text-transform: none; }
 /* line 316, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar-section ul li > a.button { font-size: 0.8125rem; padding-right: 15px; padding-left: 15px; background-color: #008CBA; border-color: #007095; color: #FFFFFF; }
 /* line 161, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
@@ -3249,13 +3250,22 @@ th.hide-for-touch { display: table-cell !important; }
   /* line 404, /Users/tylercourtenay/Desktop/tylers-site/source/bower_components/foundation/scss/foundation/components/_visibility.scss */
   th.show-for-print { display: table-cell !important; } }
 /* line 3, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
-body { margin: 0; background: transparent; }
+body { margin: 0; background: transparent; font-family: 'clear_sans_mediumregular', Arial, sans-serif; }
 
-/* line 8, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
-.video-overlay { background-image: linear-gradient(rgba(43, 43, 43, 0.8), rgba(43, 43, 43, 0.8)); background-image: -webkit-linear-gradient(rgba(43, 43, 43, 0.8), rgba(43, 43, 43, 0.8)); width: 100%; height: 100%; }
+/* line 9, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
+h1 { font-weight: 700; letter-spacing: 4px; text-transform: uppercase; margin: 0px; }
 
-/* line 15, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
-video { position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -100; background-size: cover; }
+/* line 16, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
+.top-hero { height: 340px; background-color: #fff; }
 
-/* line 27, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
-.logo { display: block; text-indent: -9999px; width: 100%; height: 100%; background: url(/img/logo.svg) center center; background-repeat: no-repeat; position: absolute; }
+/* line 21, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
+.hero-img { text-align: center; margin: 40px 0px 10px 80px; }
+
+/* line 26, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
+.about-me { height: 378px; background-image: url("img/about-me-bg.png"); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+/* line 35, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
+.about-me h1 { font-weight: 400; font-size: 20px; letter-spacing: 4px; color: #fff; margin-top: 100px; text-align: center; }
+
+/* line 44, /Users/tylercourtenay/Desktop/tylers-site/source/css/homepage.scss */
+.about-me p { text-align: center; }
