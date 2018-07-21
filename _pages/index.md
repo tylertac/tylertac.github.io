@@ -1,17 +1,18 @@
 ---
 permalink: /
 layout: index
-title: Homepage
+title: Tyler Courtenay
 ---
 
-Welcome to your new Jekyll site.
 
-<div class="grid-container fluid">
+<div class="grid-container">
   <div class="grid-x grid-padding-x">
-    <div class="cell medium-6 large-4" style="background:#000000;"><p style="color:white;">3 column</p></div>
-    <div class="cell medium-6 large-4" style="background:#000000;"><p style="color:white;">3 column</p></div>
-    <div class="cell medium-6 large-4" style="background:#000000;"><p style="color:white;">3 column</p></div>
-
+    <div class="cell medium-6 large-6 index-left">
+       <h1>Tyler Courtenay</h1>
+       <p>Is a designer living in Harlem.</p>
+       <p>(Check back for more soon)</p>
+     </div>
+    <div class="cell medium-6 large-6 index-right"></div>
   </div>
 
 </div>
