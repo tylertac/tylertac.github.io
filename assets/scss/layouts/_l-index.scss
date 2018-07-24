@@ -10,11 +10,30 @@ main {
 }
 
 
+.index {
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -70%);
+
+  .center {
+    margin: 0 auto;
+  }
+
+  a {
+    color:black;
+    text-decoration: underline;
+  }
+
+}
+
 .index-left {
   padding: 20px;
 
   h1 {
-    margin-top: 50%;
+    // margin-top: 50%;
     color: black;
     font-weight: 600;
     font-size: 60px;
