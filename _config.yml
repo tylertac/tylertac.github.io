@@ -8,10 +8,10 @@ google-verification:    ""
 include:
   - ".htaccess"
   - "_pages"
-  - "/assets/"
 
 exclude:
   - ".DS_Store"
+  - "/assets/"
   - "bower.json"
   - "composer.json"
   - "composer.lock"

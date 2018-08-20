@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
   <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:700,900|Karla" rel="stylesheet">
-  <meta name="description" content="Site description" />
+  <meta name="description" content="Graphic Designer" />
   <meta name="google-site-verification" content="">
   <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/img/icons/apple-touch-icon-144x144-precomposed.png">
@@ -15,6 +15,30 @@
   <link rel="apple-touch-icon-precomposed" href="/assets/img/icons/apple-touch-icon-precomposed.png">
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <link rel="stylesheet" href="/assets/css/app.css">
+
+  <script type="text/javascript">
+  function cycleBackgrounds() {
+    var index = 0;
+
+    $imageEls = $('.toggle-image'); // Get the images to be cycled.
+
+    setInterval(function () {
+      // Get the next index.  If at end, restart to the beginning.
+      index = index + 1 < $imageEls.length ? index + 1 : 0;
+      // Show the next image.
+      $imageEls.eq(index).addClass('show');
+      // Hide the previous image.
+      $imageEls.eq(index - 1).removeClass('show');
+
+    }, 4000);
+  };
+
+  // Document Ready.
+  $(function () {
+    cycleBackgrounds();
+  });
+</script>
+
 </head>
 <body>
 
@@ -101,28 +125,6 @@
 </footer>
 
 <script src="/assets/js/all.js"></script>
-  <script type="text/javascript">
-  function cycleBackgrounds() {
-  	var index = 0;
-
-  	$imageEls = $('.toggle-image'); // Get the images to be cycled.
-
-  	setInterval(function () {
-  		// Get the next index.  If at end, restart to the beginning.
-  		index = index + 1 < $imageEls.length ? index + 1 : 0;
-  		// Show the next image.
-  		$imageEls.eq(index).addClass('show');
-  		// Hide the previous image.
-  		$imageEls.eq(index - 1).removeClass('show');
-
-  	}, 4000);
-  };
-
-  // Document Ready.
-  $(function () {
-  	cycleBackgrounds();
-  });
-</script>
 </body>
 </html>
 
