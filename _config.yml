@@ -1,17 +1,17 @@
 # Site settings
 language:               ""
-title:                  "Site Title"
-description:            "Site description"
+title:                  "Tyler Courtenay"
+description:            "Graphic Designer"
 google-verification:    ""
 
 # Handling Reading
 include:
   - ".htaccess"
   - "_pages"
+  - "/assets/"
 
 exclude:
   - ".DS_Store"
-  - "/assets/"
   - "bower.json"
   - "composer.json"
   - "composer.lock"
