@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tyler Courtenay</title>
-  <link href="https://fonts.googleapis.com/css?family=Chivo:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua:700,900|Karla" rel="stylesheet">
   <meta name="description" content="Site description" />
   <meta name="google-site-verification" content="">
   <link rel="shortcut icon" href="/assets/img/icons/favicon.ico">
@@ -13,6 +13,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="/assets/img/icons/apple-touch-icon-precomposed.png">
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <link rel="stylesheet" href="/assets/css/app.css">
 </head>
 <body>
@@ -36,11 +37,17 @@
 
 <main>
 <div class="index">
-  <div class="grid-container">
-    <div class="row">
-      <div class="columns small-12 large-8 center">
+  <div class="container">
+    <div class="grid-x grid-margin-x">
+      <div class="cell medium-6 large-4">
+        <img src="../assets/img/logo.png" alt="" />
         <h1>Hello, friend.</h1>
         <p>I'm Tyler Courtenay. A graphic designer who lives in NYC, graduated from SVA, and works as a Senior Designer at <a href="https://unified.com">Unified</a>. <br /><br /><a href="https://dribbble.com/tylercourtenay">Find out more about me here.</a></p>
+      </div>
+      <div class="picture-rotation">
+        <div class="background-image toggle-image first-image show"></div>
+        <div class="background-image toggle-image second-image"></div>
+        <div class="background-image toggle-image third-image"></div>
       </div>
     </div>
   </div>
@@ -61,6 +68,28 @@
 </footer>
 
 <script src="/assets/js/all.js"></script>
+  <script type="text/javascript">
+  function cycleBackgrounds() {
+  	var index = 0;
+
+  	$imageEls = $('.toggle-image'); // Get the images to be cycled.
+
+  	setInterval(function () {
+  		// Get the next index.  If at end, restart to the beginning.
+  		index = index + 1 < $imageEls.length ? index + 1 : 0;
+  		// Show the next image.
+  		$imageEls.eq(index).addClass('show');
+  		// Hide the previous image.
+  		$imageEls.eq(index - 1).removeClass('show');
+
+  	}, 4000);
+  };
+
+  // Document Ready.
+  $(function () {
+  	cycleBackgrounds();
+  });
+</script>
 </body>
 </html>
 
