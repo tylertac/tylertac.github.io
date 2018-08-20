@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Ruby Requirement
-ruby '2.2.5'
+# ruby '2.2.5'
 
 # Gem Requirements
 group :jekyll_plugins do
